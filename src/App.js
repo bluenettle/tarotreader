@@ -1,8 +1,12 @@
+import HomePage from "./pages/HomePage";
 
+//router navigation goes here instead of "HomePage" in the future
 
 function App() {
   return (
-   null
+    <div className="App">
+      <HomePage />
+    </div>
   );
 }
 
