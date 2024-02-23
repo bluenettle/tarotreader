@@ -28,7 +28,7 @@ export const Reading = () => {
                 <ModalBody>
                         <TarotCard 
                             name={randomCard.name} 
-                            imageID={randomCard.imageId} 
+                            id={randomCard.id} 
                             description={randomCard.description}/>
                 </ModalBody>
             </Modal>
