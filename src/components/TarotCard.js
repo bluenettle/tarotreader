@@ -9,6 +9,7 @@ export const TarotCard = ({ name, id, description }) => {
       <CardTitle>{name}</CardTitle>
       <CardBody>
         <TarotImage imageId={id} />
+        {console.log("image id: ", {id})}
         <CardText>{description}</CardText>
       </CardBody>
     </Card>

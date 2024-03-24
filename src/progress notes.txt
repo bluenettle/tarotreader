@@ -1,0 +1,27 @@
+colors:
+
+2F1D38 dark purple
+E0AEB9 light pink
+93819F gray purple
+B4ABDA light purple
+E4DFE2 off white
+
+
+next steps:
+
+harry: shuffle animation, isLoading component
+    isLoading - while info is getting fetched; min time set for x sec; put it in initialState in cardsSlice
+    when you push the button, isLoading becomes true; when the animation finishes, it becomes false
+
+alex: commit color + style changes, put the back of the cards in, work on flip animation
+    pull card button over the card on main page
+    shuffle and flip animation are different classes applied consecutively
+
+
+further steps down the line: 
+add react router
+
+
+backend prep: 
+let's set it up on netlify first, then see about doing mongodb with express
+alex: create an account
