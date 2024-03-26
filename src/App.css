@@ -1,0 +1,88 @@
+/* 
+2b242e dusty dark purple
+2F1D38 dark purple
+E0AEB9 light pink
+93819F gray purple
+B4ABDA light purple
+E4DFE2 off white */
+
+:root, .App {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2b242e;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2F1D38;
+    padding: 2vw;
+    margin: 0;
+
+}
+
+.nav-link {
+    color: #E4DFE2;
+    text-decoration: none;
+
+}
+
+.pageContainer {
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    
+}
+
+.pullCardButton {
+    background-color: #E0AEB9;
+    color: #2F1D38;
+    border: 2px solid #E4DFE2;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 3%;
+    margin: 50% auto;
+    cursor: pointer;
+}
+
+.pullCardButton:hover {
+    background-color: #93819F;
+}
+
+.closeButton {
+    background-color: #E0AEB9;
+    color: #2F1D38;
+    border: 2px solid #E4DFE2;
+    cursor: pointer;
+
+}
+
+
+.readingContainer {
+    background-color: #93819F !important;
+    margin: 0;
+    height: 100vh;
+    
+}
+
+.readingInnerContainer {
+    background-color: #E4DFE2 !important;
+}
+
+
+.cardName {
+    color: #2F1D38 !important;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 4%;
+}
+
+.cardDescription {
+    color: #2F1D38;
+    font-size: 1rem;
+    margin: 4%;
+}

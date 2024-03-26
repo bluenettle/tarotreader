@@ -21,87 +21,94 @@ import TheSun from '../assets/rwsdeck/major_arcana_sun.png';
 import Judgement from '../assets/rwsdeck/major_arcana_judgement.png';
 import TheWorld from '../assets/rwsdeck/major_arcana_world.png';
 
+import CardBack from '../assets/rwsdeck/rwsdeckback.jpg';
+
 //to be stored on a server in the future instead of having 78 imports, maybe fetch fetch images by their name or path? i know this is not the best way to do it.
 
 export const RWSDECK = [{
+    id: 0,
+    name: 'Card Back',
+    image: CardBack,
+},
+{
     id: 1,
     name: 'The Fool',
-    image: {TheFool},
+    image: TheFool,
 },
 {
     id: 2,
     name: 'The Magician',
-    image: {TheMagician},
+    image: TheMagician,
 },
 {
     id: 3,
     name: 'The High Priestess',
-    image: {TheHighPriestess},
+    image: TheHighPriestess,
 },
 {
     id: 4,
     name: 'The Empress',
-    image: {TheEmpress},
+    image: TheEmpress,
     
 },
 {
     id: 5,
     name: 'The Emperor',
-    image: {TheEmperor},
+    image: TheEmperor,
     
 },
 {
     id: 6,
     name: 'The Hierophant',
-    image: {TheHierophant},
+    image: TheHierophant,
     
 },
 {
     id: 7,
     name: 'The Lovers',
-    image: {TheLovers},
+    image: TheLovers,
    
 },
 {
     id: 8,
     name: 'The Chariot',
-    image: {TheChariot},
+    image: TheChariot,
    
 },
 {
     id: 9,
     name: 'Strength',
-    image: {Strength},
+    image: Strength,
    
 },
 {
     id: 10,
     name: 'The Hermit',
-    image: {TheHermit},
+    image: TheHermit,
 
 },
 {
     id: 11,
     name: 'Wheel of Fortune',
-    image: {WheelOfFortune},
+    image: WheelOfFortune,
    
 },
 {
     id: 12,
     name: 'Justice',
-    image: {Justice},
+    image: Justice,
     
 },
 {
     id: 13,
     name: 'The Hanged Man',
-    image: {TheHangedMan},
+    image: TheHangedMan,
    
 },
 {
     id: 14,
     name: 'Death',
-    image: {Death},
+    image: Death,
 
 },
 {
@@ -113,43 +120,43 @@ export const RWSDECK = [{
 {
     id: 16,
     name: 'The Devil',
-    image: {TheDevil},
+    image: TheDevil,
 
 },
 {
     id: 17,
     name: 'The Tower',
-    image: {TheTower},
+    image: TheTower,
 
 },
 {
     id: 18,
     name: 'The Star',
-    image: {TheStar},
+    image: TheStar,
 
 },
 {
     id: 19,
     name: 'The Moon',
-    image: {TheMoon},
+    image: TheMoon,
 
 },
 {
     id: 20,
     name: 'The Sun',
-    image: {TheSun},
+    image: TheSun,
 
 },
 {
     id: 21,
     name: 'Judgement',
-    image: {Judgement},
+    image: Judgement,
 
 },
 {
     id: 22,
     name: 'The World',
-    image: {TheWorld},
+    image: TheWorld,
 
 }
 ];

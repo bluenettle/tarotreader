@@ -1,5 +1,6 @@
 colors:
 
+#2b242e dusty dark purple
 2F1D38 dark purple
 E0AEB9 light pink
 93819F gray purple
@@ -13,8 +14,9 @@ harry: shuffle animation, isLoading component
     isLoading - while info is getting fetched; min time set for x sec; put it in initialState in cardsSlice
     when you push the button, isLoading becomes true; when the animation finishes, it becomes false
 
-alex: commit color + style changes, put the back of the cards in, work on flip animation
-    pull card button over the card on main page
+alex: commit color + style changes, put the back of the cards in - done
+    pull card button over the card on main page - done
+     work on flip animation
     shuffle and flip animation are different classes applied consecutively
 
 

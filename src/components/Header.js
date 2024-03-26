@@ -1,13 +1,13 @@
-import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Navbar, NavbarBrand, Nav, NavItem, } from 'reactstrap';
+import { NavLink } from 'react-router-dom';
 import Logo from '../assets/icons/logo.png';
 
 const Header = () => {
 
     return (
         <Navbar
-            className="my-2"
-            color="light"
-            light
+            className="my-2 header"
+            dark
         >
             <NavbarBrand href="/">
                 <img
@@ -25,13 +25,14 @@ const Header = () => {
             <NavItem>
                 <NavLink
                     active
-                    href="#"
+                    className='nav-link'
+                    to="/"
                 >
                     Home
                 </NavLink>
             </NavItem>
             <NavItem>
-                <NavLink href="#">
+                <NavLink className='nav-link' to="/about">
                     About
                 </NavLink>
             </NavItem>

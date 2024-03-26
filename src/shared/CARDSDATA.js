@@ -1,6 +1,13 @@
+
+
 export const CARDSDATA = [
     //currently has major arcana only, ids 1 through 22
     
+    {
+        id: 0,
+        name: 'Card Back',
+        description: 'The back of a tarot card.'
+    },
     {
         id: 1,
         name: 'The Fool',

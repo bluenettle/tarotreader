@@ -3,18 +3,17 @@ import {
     Row,
     Col
 } from 'reactstrap';
-import { Reading } from '../components/Reading';
 
-const HomePage = () => {
+const AboutPage = () => {
     return (
-            <Container className='pageContainer'>
+            <Container >
                 <Row>
                     <Col className='text-center'>
-                        <Reading/>
+                        about
                     </Col>
                 </Row>
             </Container>
     );
 };
 
-export default HomePage;
+export default AboutPage;

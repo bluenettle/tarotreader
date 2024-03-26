@@ -6,9 +6,8 @@ const TarotImage = ({ imageId}) => {
     const card = useSelector(selectCardImageById(imageId));
     console.log(card);
     console.log(card.image);
-    return <img src={card.image} alt={card.name} />
+    return <img src={card.image} alt={card.name} width='50%' style={{ marginLeft: '25%', marginRight: '25%'}} />
 }
 
-//there is a bug with the image not rendering. Console.log(card.image) returns an object for some reason. I will work on this at a later time. 
 
 export default TarotImage;
